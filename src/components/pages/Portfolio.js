@@ -82,6 +82,14 @@ const Portfolio = () => {
           </p>
         </div>
 
+        <div class="project-card" style={cardStyle}>
+          <h2 class="project-card--heading">Google Books Search</h2>
+          <iframe src="https://drive.google.com/file/d/1Z5rPuy4Mj_YGDaRnNHmURwlT-fIubBWq/preview" width="640" height="480"></iframe>
+          <p style={{ marginBottom: "10px" }}>
+            https://quiet-stream-42850.herokuapp.com/
+          </p>
+        </div>
+
         {/* closes container */}
       </div>
 
