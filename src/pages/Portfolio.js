@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../components/Navbar/Navbar";
 
 const cardStyle = {
   border: "3px solid black",
@@ -15,14 +15,19 @@ const Portfolio = () => {
   return (
     <div>
       <Navbar />
+      <div>
+     
+        <h1 style={{color: "blue", backgroundColor: "lightblue"}}>Portfolio</h1>
+      </div>
+        
 
       <div class="container">
         <div class="project-card" style={cardStyle}>
           <h2 class="project-card--heading">PROJECT ONE</h2>
           <iframe
             src="https://drive.google.com/file/d/1pwrKOJBsHe9akaeCVSBzDLBR9zo9LO6D/preview"
-            width="50%"
-            height="100%"
+            width="340"
+            height="220"
           ></iframe>
 
           <p style={{ marginBottom: "10px" }}>
@@ -83,8 +88,12 @@ const Portfolio = () => {
         </div>
 
         <div class="project-card" style={cardStyle}>
-          <h2 class="project-card--heading">Google Books Search</h2>
-          <iframe src="https://drive.google.com/file/d/1Z5rPuy4Mj_YGDaRnNHmURwlT-fIubBWq/preview" width="640" height="480"></iframe>
+          <h2 class="project-card--heading">User Directory</h2>
+          <iframe
+            src="https://drive.google.com/file/d/1Z5rPuy4Mj_YGDaRnNHmURwlT-fIubBWq/preview"
+            width="340"
+            height="220"
+          ></iframe>
           <p style={{ marginBottom: "10px" }}>
             https://quiet-stream-42850.herokuapp.com/
           </p>
