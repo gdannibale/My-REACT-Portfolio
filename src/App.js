@@ -22,10 +22,10 @@
 // export default App;
 
 import React from "react";
-import Home from "./src/pages/Home";
-import Portfolio from "./src/pages/Portfolio";
-import Contact from "./src/pages/Contact";
-import Navbar from "../components/Navbar/Navbar";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Navbar from "../src/components/Navbar/Navbar";
 import Wrapper from "../src/components/Wrapper/Wrapper";
 
 import './App.css';

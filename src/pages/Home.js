@@ -86,16 +86,21 @@
 // export default Home;
 
 import React from "react";
+import Navbar from "../components/Navbar/Navbar";
 // import Container from "react-bootstrap/Container";
 // import Image from 'react-bootstrap/Image'
 
 export default function Home() {
     return (
+        <div>
+            <Navbar />
+    
+        
         <main id="home">
             <div className=" hero container-fluid">
                 <div className="row">
                     <div className="col-lg-12 col-12">
-                        <img src={image} alt="sky" className="img-responsive" style={{width:"100vw", height:"100vh"}}/>
+                        {/* <img src={image} alt="sky" className="img-responsive" style={{width:"100vw", height:"100vh"}}/> */}
                             <div style={heroText}>
                                 <h1 style={{fontSize:"45px", fontWeight:"bold", color:"white"}}>Hello. I'm Gina, a Full Stack Developer</h1>
                             </div>
@@ -104,8 +109,12 @@ export default function Home() {
                 </div>
 
         </main>
+        </div>
     )
+    
 }
+
+
 
 const heroText = {
     textAlign: "center",
@@ -116,3 +125,4 @@ const heroText = {
     translate: "translate(-50%, -50%)"
 
 }
+

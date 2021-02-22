@@ -84,9 +84,12 @@ import {
 } from "reactstrap";
 import { IconContext } from "react-icons";
 import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
+import Navbar from "../components/Navbar/Navbar";
 
 export default function Contact() {
   return (
+    <div>
+    <Navbar />
     <div className="container">
       <Row id="contact" className="justify-content-center py-5">
         <h1 style={{ textAlign: "center" }}>Contact Me</h1>
@@ -128,7 +131,7 @@ export default function Contact() {
             </CardBody>
           </Card>
         </Col>
-        <Col className="col-md-3 col-12">
+        {/* <Col className="col-md-3 col-12">
           <Card>
             <CardHeader>My Resume</CardHeader>
             <CardBody>
@@ -142,8 +145,9 @@ export default function Contact() {
               </Button>
             </CardBody>
           </Card>
-        </Col>
+        </Col> */}
       </Row>
+    </div>
     </div>
   );
 }
