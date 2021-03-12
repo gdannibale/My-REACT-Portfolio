@@ -14,7 +14,7 @@ const cardStyle = {
 const Portfolio = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div>
      
         <h1 style={{color: "blue", backgroundColor: "lightblue"}}>Portfolio</h1>

@@ -38,10 +38,10 @@ function App() {
     <div>
       <Wrapper>
       <Navbar />
-
-      <Home />
+      {/* <About /> */}
+      {/* <Home /> */}
       <Portfolio />
-      <Contact />
+      {/* <Contact /> */}
       </Wrapper>
     </div>
   );
