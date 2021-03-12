@@ -5,13 +5,11 @@ import { DiJsBadge, DiReact, DiMongodb, DiMysql, DiNodejs, DiCss3, DiJqueryLogo 
 import Navbar from "../components/Navbar/Navbar";
 
 
-
-import image from "../images/IMG_6139.jpeg"
-
 export default function About() {
     return (
         <div>
             <Navbar />
+            <Container />
     
         <main className="container" id="main">
             <Row>
@@ -22,11 +20,11 @@ export default function About() {
                         Love to code and learn everyday. I graduated from Vanderbilt/Trilogy Full Stack Developer Coding Bootcamp in January 2021.
                         Looking for a company to work for so i can grow and learn everyday as full stack developer.
                </p>
-               </Col>
+               {/* </Col>
                <Col className="col-md-5 col-12">
                         <img src={image} alt="picture of my family" />
                         </Col>
-               <Col className="col-md-2 col-12">
+               <Col className="col-md-2 col-12"> */}
 
                         <h1 style={{ fontSize:"30px", textAlign:"center", paddingTop:"10px"}}>My Technologies</h1>
                         <ul className=" text-align-center list-unstyled mt-5">

@@ -130,6 +130,10 @@ export default function Contact() {
               </Button>
             </CardBody>
           </Card>
+          <Container />
+          <CardLink />
+          <CardLink />
+          
         </Col>
         {/* <Col className="col-md-3 col-12">
           <Card>

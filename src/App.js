@@ -23,6 +23,7 @@
 
 import React from "react";
 import Home from "./pages/Home";
+import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Navbar from "../src/components/Navbar/Navbar";
@@ -38,10 +39,10 @@ function App() {
     <div>
       <Wrapper>
       <Navbar />
-      {/* <About /> */}
-      {/* <Home /> */}
+      <About />
+      <Home />
       <Portfolio />
-      {/* <Contact /> */}
+      <Contact />
       </Wrapper>
     </div>
   );
