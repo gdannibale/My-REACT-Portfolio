@@ -132,8 +132,10 @@ export default function Contact() {
           </Card>
           <Container />
           <CardLink />
-          <CardLink />
-          
+          <CardTitle />
+          <CardFooter />
+          <FaFileAlt />
+
         </Col>
         {/* <Col className="col-md-3 col-12">
           <Card>
