@@ -9,9 +9,9 @@ const Home = () => {
         <h1 style={{ color: "blue", backgroundColor: "lightblue"}}>Home Page</h1>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        {/* <a class="navbar-brand" href="#">
           Navbar
-        </a>
+        </a> */}
         <button
           class="navbar-toggler"
           type="button"
