@@ -13,7 +13,7 @@ export default function NavBar() {
                 <Nav className="mr-auto">
                     <Nav.Link
                         activeClass="active"
-                        to="main"
+                        to="About"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -24,7 +24,7 @@ export default function NavBar() {
                     </Nav.Link>
                     <Nav.Link
                         activeClass="active"
-                        to="portfolio"
+                        to="Portfolio"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -35,7 +35,7 @@ export default function NavBar() {
                     </Nav.Link>
                     <Nav.Link
                         activeClass="active"
-                        to="contact"
+                        to="Contact"
                         spy={true}
                         smooth={true}
                         offset={-70}
@@ -47,14 +47,14 @@ export default function NavBar() {
                 </Nav>
                 <div className="justify-content-between">
           <SocialIcon
-            url="https://github.com/chadtarpey615"
+            url="https://github.com/gdannibale"
             className="mr-4"
 
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }} />
           <SocialIcon
-            url="https://www.linkedin.com/in/chad-tarpey-a276511a3/"
+            url="https://www.linkedin.com/in/gina-dannibale-b824303a/"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
