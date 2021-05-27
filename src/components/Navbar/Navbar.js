@@ -1,17 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import { SocialIcon } from "react-social-icons"
+// import Home from "./pages/Home";
+// import About from "./pages/About";
+// import Portfolio from "./pages/Portfolio";
+// import Contact from "./pages/Contact";
 
 
 
-export default function NavBar() {
+
+export default function NavBar(props) {
     return(
         <Navbar fixed="top" bg="dark" variant="dark" expand="md">
-            <Navbar.Brand href="#home">Gina Dannibale</Navbar.Brand>
+            <Navbar.Brand href="Home.js">Gina Dannibale</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link
+                        href="#about"
+                        onClick={() => props.handlePageChange("About")}
                         activeClass="active"
                         to="About"
                         spy={true}
@@ -23,6 +30,8 @@ export default function NavBar() {
                         About
                     </Nav.Link>
                     <Nav.Link
+                        href="#portfolio"
+                        onClick={() => props.handlePageChange("Portfolio")}
                         activeClass="active"
                         to="Portfolio"
                         spy={true}
@@ -34,6 +43,8 @@ export default function NavBar() {
                         Portfolio
                     </Nav.Link>
                     <Nav.Link
+                        href="#contact"
+                        onClick={() => props.handlePageChange("Contact")}
                         activeClass="active"
                         to="Contact"
                         spy={true}
@@ -59,14 +70,14 @@ export default function NavBar() {
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }} />
-          {/* <SocialIcon
-            url={Resume}
+          <SocialIcon
+            // url={Resume}
             className="mr-4"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }} /> */}
         </div>
-    {/* <Form inline>
+    {/* { <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-info">Search</Button>
     </Form> */}
@@ -74,7 +85,7 @@ export default function NavBar() {
   </Navbar>
 
     )
-}
+// export default Navbar;
 
 
 
@@ -109,6 +120,5 @@ export default function NavBar() {
 //             </nav>
 //         </div>
 //     )
-// }
+}
 
-// export default Navbar;

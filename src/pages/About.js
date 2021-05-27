@@ -2,6 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { IconContext} from "react-icons"
 import { DiJsBadge, DiReact, DiMongodb, DiMysql, DiNodejs, DiCss3, DiJqueryLogo } from "react-icons/di";
+// import Home from "./pages/Home";
+// import About from "./pages/About";
+// import Portfolio from "./pages/Portfolio";
+// import Contact from "./pages/Contact";
 // import Navbar from "../components/Navbar/Navbar";
 
 export default function About() {
@@ -9,7 +13,7 @@ export default function About() {
       <main id="main">
         <Container>
           <Row className="py-5">
-            <Col className="col-md-4 col-12 pt-10">
+            <Col className="col-md-6 col-12 pt-10">
               <h1 style={{ fontSize: "40px" }}>Hi, I'm Gina Dannibale</h1>
               <p style={{ paddingTop: "10px" }}>
                 Hello, I'm a full stack developer currently working for CHS as an HRIS Analyst. I have a BS from Belmont University. I graduated from
@@ -22,17 +26,17 @@ export default function About() {
                       <img className="family-pic" src={image} alt="picture of my family" />
                   </Col> */}
   
-            <Col className="col-lg-3 col-12">
+            <Col className="col-md-6 col-12">
               <h1
                 style={{
-                  fontSize: "3rem",
+                  fontSize: "40px",
                   textAlign: "center",
                   paddingTop: "10px",
                 }}
               >
                 Technologies
               </h1>
-              <IconContext.Provider value={{ color: "black", size: "7em" }}>
+              <IconContext.Provider value={{ color: "black", size: "5em" }}>
                 <ul>
                   <li>
                     <DiJsBadge />
