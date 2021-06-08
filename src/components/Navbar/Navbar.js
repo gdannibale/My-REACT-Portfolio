@@ -11,7 +11,7 @@ import { SocialIcon } from "react-social-icons"
 
 export default function NavBar(props) {
     return(
-        <Navbar fixed="top" bg="dark" variant="dark" expand="md">
+        <Navbar fixed="top" bg="dark" variant="dark" expand="md" bg-color="darkgrey">
             {/* <Navbar.Brand href="#home">Gina Dannibale</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

@@ -79,18 +79,18 @@ export default function Portfolio() {
           </Col>
           <Col className="col-lg-3 col-12">
             <Card>
-              <CardHeader>Google Books Search</CardHeader>
+              <CardHeader>User Directory</CardHeader>
               <CardBody>
                 <IconContext.Provider value={{ color: "black", size: "10em" }}>
-                  <a href="https://github.com/gdannibale/Google-Book-Search"></a>
+                  <a href="https://github.com/gdannibale/User-Directory"></a>
                 </IconContext.Provider>
 
-                <CardText>This APP allows the user to search and store their favorite books.</CardText>
+                <CardText>This APP allows the user to search and sort users in the directory.</CardText>
                 <Button
-                  href="https://thawing-caverns-35286.herokuapp.com/"
+                  href="https://quiet-stream-42850.herokuapp.com/"
                   // target="_blank"
                 >
-                  Create your book list!
+                  See users!
                 </Button>
               </CardBody>
             </Card>

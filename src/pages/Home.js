@@ -1,22 +1,29 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
+import { Container, Row, Col } from 'reactstrap';
 
 export default function Home() {
   return (
-      <main id="home">
-          <div>
-              <div className="row">
-                  <div className="col-lg-12 col-12">
-                      {/* <img src={image} alt="sky" className="img-responsive" style={{ width: "100vw", height: "100vh" }} /> */}
-                      <div style={heroText}>
-                          <h1 style={{ fontSize: "45px", fontWeight: "bold", color: "white" }}>Hello. I'm Gina, a Full Stack Developer</h1>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-      </main>
-  )
+    <main id="main">
+      <Container>
+        <Row className="py-5">
+          <Col className="col-md-6 col-12 pt-10">
+            <h1 style={{ fontSize: "40px" }}>Hi, I'm Gina Dannibale</h1>
+            <p style={{ paddingTop: "10px" }}>
+              I'm a full stack developer currently working for CHS as an
+              HRIS Analyst. I have a BS from Belmont University. I graduated
+              from Vanderbilt/Trilogy Full Stack Developer Coding Bootcamp in
+              January 2021. I am looking for new career opportunities to learn
+              and grow as a full stack web developer.
+            </p>
+          </Col>
+          {/* <Col className="col-md-6 col-12 pt-10">
+            <img src=""
+          </Col> */}
+        </Row>
+      </Container>
+    </main>
+  );
 }
 
 const heroText = {
@@ -25,6 +32,5 @@ const heroText = {
   top: "50%",
   left: "45%",
   fontSize: "large",
-  translate: "translate(-50%, -50%)"
-
-}
+  translate: "translate(-50%, -50%)",
+};

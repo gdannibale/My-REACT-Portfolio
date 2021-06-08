@@ -26,7 +26,7 @@ export default function Contact() {
           <h1 style={{ textAlign: "center" }}>ginadannibale@gmail.com</h1>
         </Row>
         <Row className="justify-content-between row">
-          <Col className=" col-lg-4 col-12" textAlign="center">
+          <Col className=" col-lg-4 col-12">
             <Card>
               <CardHeader>LinkedIn</CardHeader>
               <CardBody>
