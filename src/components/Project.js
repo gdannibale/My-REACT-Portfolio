@@ -26,7 +26,7 @@ class Project extends Component {
       return <About />;
     } else if (this.state.currentPage === "Portfolio") {
       return <Portfolio />;
-    } else {
+    } else if (this.state.currentPage === "Contact") {
       return <Contact />;
     }
   };

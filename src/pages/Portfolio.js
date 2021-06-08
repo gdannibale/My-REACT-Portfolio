@@ -1,24 +1,91 @@
 import React from "react";
-import { Projects } from "../utils/Projects.js";
-import Project from "../components/Project.js"
+import { Container, Row, Col } from "reactstrap";
+import {
+  Card,
+  CardText,
+  CardBody,
+  CardLink,
+  CardTitle,
+  CardHeader,
+  CardFooter,
+  Button,
+} from "reactstrap";
+import { IconContext } from "react-icons";
+import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 // import Navbar from "../components/Navbar/Navbar";
 
-export default function Portfolio(props) {
+export default function Portfolio() {
   return (
-      <>
-          <h1>My Projects</h1>
+    <div>
+      {/* <Navbar /> */}
+      <div className="container">
+        <Row id="contact" className="justify-content-center py-5">
+          <h1 style={{ textAlign: "center" }}>My Projects</h1>
+        </Row>
+        {/* <Row className="justify-content-center py-2">
+          <h1 style={{ textAlign: "center" }}>ginadannibale@gmail.com</h1>
+        </Row> */}
+        <Row className="justify-content-between row">
+          <Col className=" col-lg-3 col-12">
+            <Card>
+              <CardHeader>Super Hero Search</CardHeader>
+              <CardBody>
+                <IconContext.Provider value={{ color: "blue", size: "10em" }}>
+                  <a href="https://github.com/gdannibale/Super-Heroes.git"></a>
+                </IconContext.Provider>
 
-          <div className="projects-center" id="portfolio">
+                <CardText>The APP allows the user to search for their favorite superheroes using three API calls to get stats, gifs, and movies onto the screen that is created dynamically.</CardText>
+                <Button href="https://github.com/gdannibale/Super-Heroes.git" target="_blank">
+                  Start your search!
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="col-lg-6 col-12">
+            <Card>
+              <CardHeader>GitHub</CardHeader>
+              <CardBody>
+                <IconContext.Provider value={{ color: "black", size: "10em" }}>
+                  <FaGithub />
+                </IconContext.Provider>
 
-              {
-                  Projects.map((projects) => {
-                      return <Project key={projects.id} {...projects} />
-                  })
-              }
-          </div >
-      </>
-  )
-            }
+                <CardText>Check out my repositories</CardText>
+                <Button
+                  href="https://github.com/gdannibale?tab=repositories"
+                  // target="_blank"
+                >
+                  My GitHub
+                </Button>
+              </CardBody>
+            </Card>
+            <Container />
+            <CardLink />
+            <CardTitle />
+            <CardFooter />
+            <FaFileAlt />
+          </Col>
+          
+        </Row>
+        {/* <Col className="col-md-3 col-12">
+          <Card>
+            <CardHeader>My Resume</CardHeader>
+            <CardBody>
+              <IconContext.Provider value={{ color: "tan", size: "10em" }}>
+                <FaFileAlt />
+              </IconContext.Provider>
+
+              <CardText>A link to my Resume.</CardText>
+              <Button href={Resume} target="_blank">
+                My Resume
+              </Button>
+            </CardBody>
+          </Card>
+        </Col> */}
+      </div>
+    </div>
+  );
+}
+
 
 
 

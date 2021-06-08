@@ -12,10 +12,23 @@ import { SocialIcon } from "react-social-icons"
 export default function NavBar(props) {
     return(
         <Navbar fixed="top" bg="dark" variant="dark" expand="md">
-            <Navbar.Brand href="Home.js">Gina Dannibale</Navbar.Brand>
+            {/* <Navbar.Brand href="#home">Gina Dannibale</Navbar.Brand> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
+                <Nav.Link
+                        href="#home"
+                        onClick={() => props.handlePageChange("Home")}
+                        activeClass="active"
+                        to="Home"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={800}
+                        activeClassName="text-white"
+                        className="d-inline-block align-top">
+                        Gina Dannibale
+                    </Nav.Link>
                     <Nav.Link
                         href="#about"
                         onClick={() => props.handlePageChange("About")}
