@@ -35,35 +35,66 @@ export default function Portfolio() {
                 </IconContext.Provider>
 
                 <CardText>The APP allows the user to search for their favorite superheroes using three API calls to get stats, gifs, and movies onto the screen that is created dynamically.</CardText>
-                <Button href="https://github.com/gdannibale/Super-Heroes.git" target="_blank">
+                <Button href="https://chadtarpey615.github.io/Super-Heroes/" target="_blank">
                   Start your search!
                 </Button>
               </CardBody>
             </Card>
           </Col>
-          <Col className="col-lg-6 col-12">
+          <Col className="col-lg-3 col-12" height="100px">
             <Card>
-              <CardHeader>GitHub</CardHeader>
+              <CardHeader>Dream Board</CardHeader>
               <CardBody>
                 <IconContext.Provider value={{ color: "black", size: "10em" }}>
-                  <FaGithub />
+                  <a href="https://github.com/gdannibale/Project-3-IdeaBoard"></a>
                 </IconContext.Provider>
 
-                <CardText>Check out my repositories</CardText>
+                <CardText>This APP allows the user to create their very own Dream Board.</CardText>
                 <Button
-                  href="https://github.com/gdannibale?tab=repositories"
+                  href="http://ancient-fjord-63838.herokuapp.com/"
                   // target="_blank"
                 >
-                  My GitHub
+                  Dream Big!
                 </Button>
               </CardBody>
             </Card>
-            <Container />
-            <CardLink />
-            <CardTitle />
-            <CardFooter />
-            <FaFileAlt />
           </Col>
+          <Col className="col-lg-3 col-12" height="100px">
+            <Card>
+              <CardHeader>Google Books Search</CardHeader>
+              <CardBody>
+                <IconContext.Provider value={{ color: "black", size: "10em" }}>
+                  <a href="https://github.com/gdannibale/Google-Book-Search"></a>
+                </IconContext.Provider>
+
+                <CardText>This APP allows the user to search and store their favorite books.</CardText>
+                <Button
+                  href="https://thawing-caverns-35286.herokuapp.com/"
+                  // target="_blank"
+                >
+                  Create your book list!
+                </Button>
+              </CardBody>
+            </Card>
+          </Col>
+          <Col className="col-lg-3 col-12">
+            <Card>
+              <CardHeader>Google Books Search</CardHeader>
+              <CardBody>
+                <IconContext.Provider value={{ color: "black", size: "10em" }}>
+                  <a href="https://github.com/gdannibale/Google-Book-Search"></a>
+                </IconContext.Provider>
+
+                <CardText>This APP allows the user to search and store their favorite books.</CardText>
+                <Button
+                  href="https://thawing-caverns-35286.herokuapp.com/"
+                  // target="_blank"
+                >
+                  Create your book list!
+                </Button>
+              </CardBody>
+            </Card>
+            </Col>
           
         </Row>
         {/* <Col className="col-md-3 col-12">

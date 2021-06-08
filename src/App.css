@@ -110,6 +110,12 @@ li {
   }
 }
 
+button {
+  text-align: center;
+  color: #afafaf;
+  background-color: black;
+}
+
 /* .App {
   text-align: center;
 }
