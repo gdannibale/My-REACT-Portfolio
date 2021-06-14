@@ -17,9 +17,9 @@ export default function Home() {
               and grow as a full stack web developer.
             </p>
           </Col>
-          {/* <Col className="col-md-6 col-12 pt-10">
-            <img src=""
-          </Col> */}
+          <Col className="col-md-6 col-12 pt-10">
+            <img src="https://avatars.githubusercontent.com/u/67716608?v=4"></img>
+          </Col>
         </Row>
       </Container>
     </main>
