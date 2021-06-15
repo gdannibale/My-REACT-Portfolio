@@ -10,6 +10,7 @@ import {
   CardFooter,
   Button,
 } from "reactstrap";
+import { SocialIcon } from "react-social-icons"
 import { IconContext } from "react-icons";
 import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 // import Navbar from "../components/Navbar/Navbar";
@@ -28,13 +29,16 @@ export default function Portfolio() {
         <Row className="justify-content-between row">
           <Col className=" col-lg-3 col-12">
             <Card>
-              <CardHeader>Super Hero Search</CardHeader>
+              <CardHeader><SocialIcon
+                    url="https://github.com/gdannibale/Super-Heroes"
+                    className="mr-4"
+                    target="_blank"
+                    fgColor="#fff"
+                    style={{ height: 35, width: 35 }}
+                />Super Hero Search</CardHeader>
               <CardBody>
-                <IconContext.Provider value={{ color: "blue", size: "10em" }}>
-                  <a href="https://github.com/gdannibale/Super-Heroes.git"></a>
-                </IconContext.Provider>
-
                 <CardText>The APP allows the user to search for their favorite superheroes using three API calls to get stats, gifs, and movies onto the screen that is created dynamically.</CardText>
+                
                 <Button href="https://chadtarpey615.github.io/Super-Heroes/" target="_blank">
                   Start your search!
                 </Button>
@@ -43,12 +47,14 @@ export default function Portfolio() {
           </Col>
           <Col className="col-lg-3 col-12" height="100px">
             <Card>
-              <CardHeader>Dream Board</CardHeader>
+              <CardHeader><SocialIcon
+                    url="https://github.com/gdannibale/Project-3-IdeaBoard"
+                    className="mr-4"
+                    target="_blank"
+                    fgColor="#fff"
+                    style={{ height: 35, width: 35 }}
+                    />Dream Board</CardHeader>
               <CardBody>
-                <IconContext.Provider value={{ color: "black", size: "10em" }}>
-                  <a href="https://github.com/gdannibale/Project-3-IdeaBoard"></a>
-                </IconContext.Provider>
-
                 <CardText>This APP allows the user to create their very own Dream Board.</CardText>
                 <Button
                   href="http://ancient-fjord-63838.herokuapp.com/"
@@ -61,12 +67,14 @@ export default function Portfolio() {
           </Col>
           <Col className="col-lg-3 col-12" height="100px">
             <Card>
-              <CardHeader>Google Books Search</CardHeader>
+              <CardHeader><SocialIcon
+                    url="https://github.com/gdannibale/Google-Book-Search"
+                    className="mr-4"
+                    target="_blank"
+                    fgColor="#fff"
+                    style={{ height: 35, width: 35 }}
+                    />Google Books Search</CardHeader>
               <CardBody>
-                <IconContext.Provider value={{ color: "black", size: "10em" }}>
-                  <a href="https://github.com/gdannibale/Google-Book-Search"></a>
-                </IconContext.Provider>
-
                 <CardText>This APP allows the user to search and store their favorite books.</CardText>
                 <Button
                   href="https://thawing-caverns-35286.herokuapp.com/"
@@ -79,12 +87,14 @@ export default function Portfolio() {
           </Col>
           <Col className="col-lg-3 col-12">
             <Card>
-              <CardHeader>User Directory</CardHeader>
+              <CardHeader><SocialIcon
+                    url="https://github.com/gdannibale/User-Directory"
+                    className="mr-4"
+                    target="_blank"
+                    fgColor="#fff"
+                    style={{ height: 35, width: 35 }}
+                    />User Directory</CardHeader>
               <CardBody>
-                <IconContext.Provider value={{ color: "black", size: "10em" }}>
-                  <a href="https://github.com/gdannibale/User-Directory"></a>
-                </IconContext.Provider>
-
                 <CardText>This APP allows the user to search and sort users in the directory.</CardText>
                 <Button
                   href="https://quiet-stream-42850.herokuapp.com/"
@@ -96,23 +106,6 @@ export default function Portfolio() {
             </Card>
             </Col>
           
-        </Row>
-        <Row>
-          {/* <Col className="col-md-3 col-12">
-          <Card>
-            <CardHeader>My Resume</CardHeader>
-            <CardBody>
-              {/* <IconContext.Provider value={{ color: "tan", size: "10em" }}>
-                <FaFileAlt />
-              </IconContext.Provider> */}
-
-              {/* <CardText>A link to my Resume.</CardText> */}
-              {/* <Button href="https://1drv.ms/w/s!AuJtakMr1bPAhB7SRl8uC5uM8Q-J?e=klyPkf">
-                My Resume
-              </Button> */}
-            {/* </CardBody>
-          </Card>
-        </Col> */}
         </Row>
       </div>
     </div>
