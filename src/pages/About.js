@@ -10,6 +10,17 @@ import {
   DiCss3,
   DiJqueryLogo,
 } from "react-icons/di";
+import {
+  Card,
+  CardText,
+  CardBody,
+  CardLink,
+  CardTitle,
+  CardHeader,
+  CardFooter,
+  Button,
+} from "reactstrap";
+import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
 // import Portfolio from "./pages/Portfolio";
@@ -75,6 +86,9 @@ export default function About() {
             </IconContext.Provider>
           </Col>
         </Row>
+        <Button href="https://1drv.ms/w/s!AuJtakMr1bPAhB7SRl8uC5uM8Q-J?e=klyPkf">
+                My Resume
+              </Button>
       </Container>
     </main>
   );

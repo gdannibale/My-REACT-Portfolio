@@ -84,7 +84,7 @@ export default function NavBar(props) {
             fgColor="#fff"
             style={{ height: 35, width: 35 }} />
           <SocialIcon
-            // url={Resume}
+            url="https://1drv.ms/w/s!AuJtakMr1bPAhB7SRl8uC5uM8Q-J?e=klyPkf"
             className="mr-4"
             target="_blank"
             fgColor="#fff"

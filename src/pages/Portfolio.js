@@ -97,21 +97,23 @@ export default function Portfolio() {
             </Col>
           
         </Row>
-        {/* <Col className="col-md-3 col-12">
+        <Row>
+          {/* <Col className="col-md-3 col-12">
           <Card>
             <CardHeader>My Resume</CardHeader>
             <CardBody>
-              <IconContext.Provider value={{ color: "tan", size: "10em" }}>
+              {/* <IconContext.Provider value={{ color: "tan", size: "10em" }}>
                 <FaFileAlt />
-              </IconContext.Provider>
+              </IconContext.Provider> */}
 
-              <CardText>A link to my Resume.</CardText>
-              <Button href={Resume} target="_blank">
+              {/* <CardText>A link to my Resume.</CardText> */}
+              {/* <Button href="https://1drv.ms/w/s!AuJtakMr1bPAhB7SRl8uC5uM8Q-J?e=klyPkf">
                 My Resume
-              </Button>
-            </CardBody>
+              </Button> */}
+            {/* </CardBody>
           </Card>
         </Col> */}
+        </Row>
       </div>
     </div>
   );
