@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import { SocialIcon } from "react-social-icons"
+import { BsBriefcase } from "react-icons/bs";
 // import Home from "./pages/Home";
 // import About from "./pages/About";
 // import Portfolio from "./pages/Portfolio";
@@ -83,55 +84,24 @@ export default function NavBar(props) {
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }} />
-          <SocialIcon
-            url="https://1drv.ms/w/s!AuJtakMr1bPAhB7SRl8uC5uM8Q-J?e=klyPkf"
+            <SocialIcon
+            url="https://www.canva.com/design/DAEjcR6FQOE/T-iWFFvH96H08o3A5-B-3g/view?utm_content=DAEjcR6FQOE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            bgcolor="white"
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 35, width: 35 }} /> */}
+            style={{ height: 35, width: 35 }} />
+          {/* <BsBriefcase
+            href="https://www.canva.com/design/DAEjcR6FQOE/T-iWFFvH96H08o3A5-B-3g/view?utm_content=DAEjcR6FQOE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            className="mr-4"
+            target="_blank"
+            fgColor="black"
+            style={{ height: 35, width: 35 }}
+          /> */}
         </div>
-    {/* { <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-info">Search</Button>
-    </Form> */}
     </Navbar.Collapse>
   </Navbar>
 
     )
-// export default Navbar;
-
-
-
-// const Navbar =()=> {
-//     return(
-//         <div>
-    
-//             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-//             {/* <a class="navbar-brand" href="#">Navbar</a> */}
-//             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-//                 <span class="navbar-toggler-icon"></span>
-//             </button>
-            
-//             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-//                 <ul class="navbar-nav mr-auto">
-                    
-//                 <li class="nav-item active">
-//                     <a class="nav-link" href="Home.js">Home</a>
-//                 </li>
-//                 <li class="nav-item">
-//                     <a class="nav-link" href="Portfolio.js">Portfolio</a>
-//                 </li>
-//                 <li class="nav-item">
-//                     <a class="nav-link" href="Contact.js">Contact</a>
-//                 </li>
-//                 </ul>
-//                 <form class="form-inline my-2 my-lg-0">
-//                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-//                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-//                 </form>
-//             </div>
-//             </nav>
-//         </div>
-//     )
 }
 

@@ -8,6 +8,7 @@ import Wrapper from "../src/components/Wrapper/Wrapper";
 import Project from "../src/components/Project";
 
 import './App.css';
+import Footer from "./components/Footer";
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <About /> */}
       <Project />
       </Wrapper>
+      
     </div>
   );
 }

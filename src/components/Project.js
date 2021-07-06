@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { SocialIcon } from "react-social-icons";
 import Navbar from "./Navbar/Navbar";
+import Footer from "../components/Footer";
+
 // import { Container, Row, Col } from 'reactstrap';
 
 
@@ -40,6 +42,7 @@ class Project extends Component {
         />
         {this.renderPage()}
       </div>
+      
     );
   }
 }

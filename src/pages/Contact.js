@@ -12,6 +12,7 @@ import {
 } from "reactstrap";
 import { IconContext } from "react-icons";
 import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
+import Footer from "../components/Footer";
 // import Navbar from "../components/Navbar/Navbar";
 
 export default function Contact() {
@@ -77,6 +78,8 @@ export default function Contact() {
           </Card>
         </Col> */}
       </div>
+      {/* <Footer /> */}
     </div>
+   
   );
 }
